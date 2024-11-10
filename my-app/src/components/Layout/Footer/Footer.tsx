@@ -1,7 +1,11 @@
+import styles from "./Footer.module.css";
+
 const Footer = () => {
   return (
     <footer>
-      <h2>This is Footer</h2>
+      <div className={styles.container}>
+        <button className={styles.reservationBtn}>즉시 예약</button>
+      </div>
     </footer>
   );
 };

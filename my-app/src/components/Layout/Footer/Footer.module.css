@@ -1,0 +1,33 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.reservationBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  border-radius: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #879dff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* 부드러운 전환 효과 */
+}
+
+.reservationBtn:hover {
+  background-color: #6780ff; /* 호버 시 배경색 변경 */
+  transform: scale(1.02); /* 약간 확대 효과 */
+}

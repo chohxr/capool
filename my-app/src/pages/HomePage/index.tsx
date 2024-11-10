@@ -4,7 +4,7 @@ import HomeContainer from "../../containers/Home/HomeContainer";
 const HomePage = () => {
   return (
     <Layout>
-      <HomeContainer />;
+      <HomeContainer />
     </Layout>
   );
 };

@@ -2,5 +2,8 @@
   "packageManager": "yarn@4.5.1",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.13"
   }
 }

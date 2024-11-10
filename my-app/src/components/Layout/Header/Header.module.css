@@ -1,7 +1,14 @@
-.conainer {
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+.container {
   display: flex;
-  width: 100%;
-  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
 }
 
 .logo {
@@ -9,13 +16,31 @@
   align-items: center;
   justify-content: center;
   width: 200px;
-  height: 50px;
+  height: 40px;
+  font-size: 2em;
+  border: 0;
+  background-color: transparent; /* 투명 */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
 
 .LoginBtn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 50px;
+  width: 80px;
+  height: 40px;
+  border: 2;
+  background-color: transparent; /* 투명 */
+  font-size: 16px;
+  margin: 0px 40px 0px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
 }

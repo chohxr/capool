@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 
 const LoginBtn = () => {
-  return <div className={styles.LoginBtn}>로그인</div>;
+  return <button className={styles.LoginBtn}>로그인</button>;
 };
 
 export default LoginBtn;
